@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.c-block {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding-top: 32px;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 48px 0;
+    position: relative;
+}
+
+.c-block-container .c-block-table,
+.c-block-container .c-block-form {
+    float: none;
+    min-width: 0;
+    padding: 0;
+    width: auto;
+}
+
+.c-block-container {
+    max-width: 768px;
+}
+
+.c-block-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0 auto;
+    min-width: 304px;
+    padding: 0 32px;
+}
+
+.c-block-form {
+    margin-top: 15px;
+    box-sizing: border-box;
+    padding: 0 40px;
+    display: flex;
+    box-shadow: 6px 4px 3px 0px;
+}
+
+input, button, td, th, tr {
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.c-block-table {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    box-sizing: border-box;
+    padding: 0 40px;
+    box-shadow: 6px 4px 3px 0px;
+    min-height: 523px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.c-block-container::after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+td, th {
+    overflow: hidden;
+    max-width: auto;
+    font-size: 20px
+}
+
+td {
+    font-style: oblique;
+    background-color: #90dffd;
+    border-bottom: 2px solid black;
+}
+
+th {
+    font-size: 22px;
+    font-style: italic;
+    background-color: #fef78f;
+    border-bottom: 2px solid black;
+}
+
+h1 {
+    font-size: 30px;
+    font-style: oblique;
+}
+
+body {
+    background-color: #ff9390;
+}
+
+button {
+    background-color: #b4ff8f;
+}
+
+button:hover {
+    background-color: #a5f77c;
+} 
+
+footer {
+    position: fixed;
+    bottom: 0;
+    font-weight: bold;
+}
+

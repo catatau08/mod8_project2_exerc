@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact book</title>
+</head>
+
+<body>
+    <section class="c-block">
+        <div class="c-block-container">
+            <h1>Agenda de Contato</h1>
+            <form class="c-block-form">
+                <input type="text" id="assignName" maxlength="12" required placeholder="Primeiro Nome" />
+                <input type="text" id="assignTel" maxlength="12" required placeholder="Telefone (DDD+num)" />
+                <button type="submit">Cadastrar</button>
+            </form>
+            <div class="c-block-table">
+                <table cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Nome:</th>
+                            <th>Telefone:</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                    <tfoot id="formTabela">
+                       
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    <footer>by Rafael Lucio Flores</footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
